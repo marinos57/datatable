@@ -14,9 +14,9 @@ class ClienteController{
         }
     }
 
-    public static function cliente(Router $router){
+    // public static function cliente(Router $router){
        
-    }
+    // }
     public static function guardarApi(){
      
         try {
