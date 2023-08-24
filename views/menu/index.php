@@ -5,7 +5,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#enlace1">Datatable</a>
+                    <a class="nav-link" href="/datatable/clientes">Datatable</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#enlace2">Estadistica</a>
