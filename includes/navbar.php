@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
-    <a class="navbar-brand" href="#">Menú Principal</a>
+    <a class="navbar-brand" href="/datatable/menu">Menú Principal</a>
 
     <!-- Enlaces del menú -->
     <div class="collapse navbar-collapse" id="navbarNav">
