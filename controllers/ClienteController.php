@@ -7,10 +7,16 @@ use MVC\Router;
 
 class ClienteController{
     public static function index(Router $router) {
-        $router->render('clientes/index', []);
-
+         if(isset($_SESSION['auth_user'])){
+            $router->render('clientes/index', []);
+        }else{
+            header('Location: /datatable/');
+        }
     }
 
+    public static function cliente(Router $router){
+       
+    }
     public static function guardarApi(){
      
         try {

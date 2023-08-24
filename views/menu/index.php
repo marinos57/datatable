@@ -7,9 +7,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/datatable/clientes">Datatable</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#enlace2">Estadistica</a>
-                </li>
+                </li> -->
             </ul>
         </div>
         <a href="/datatable/logout" class="btn btn-danger">Cerrar sesión</a>

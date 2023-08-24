@@ -1,3 +1,4 @@
+<?php include_once '../../includes/navbar.php'?>
 <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
         <a class="navbar-brand" href="/datatable/menu">Menú Principal</a>
     
@@ -7,9 +8,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/datatable/clientes">Datatable</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#enlace2">Estadistica</a>
-                </li>
+                </li> -->
             </ul>
         </div>
         <a href="/datatable/logout" class="btn btn-danger">Cerrar sesión</a>
