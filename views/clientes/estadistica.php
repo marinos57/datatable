@@ -14,14 +14,11 @@
     </div>
     <a href="/datatable/logout" class="btn btn-danger">Cerrar sesión</a>
 </nav>
-<div class="row mb-3 mt-5">
-  <div class="col text-center">
-    <h1>BIENVENIDO AL SISTEMA DE AUTOMATIZACION PARA LA DESPENSA</h1>
-  </div>
+<h1>ESTADISTICAS DE VENTAS</h1>
+<button id="btnActualizar" class="btn btn-info">Actualizar</button>
+<div class="row">
+    <div class="col-lg-5">
+        <canvas id="chartVentas" width="100%"></canvas>
+    </div>
 </div>
-<div class="row justify-content-center">
-  <div class="col-lg-4">
-    <img src="./images/cit.png" width="100%" alt="">
-  </div>
-</div>
-<script src="build/js/inicio.js"></script>
+<script src="<?=asset('./build/js/clientes/estadistica.js') ?>"></script>

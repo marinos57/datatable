@@ -7,9 +7,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/datatable/clientes">Datatable</a>
             </li>
-            <!-- <li class="nav-item">
-                    <a class="nav-link" href="#enlace2">Estadistica</a>
-                </li> -->
+            <li class="nav-item">
+                    <a class="nav-link" href="/datatable/clientes/estadistica">Estadistica</a>
+            </li>
         </ul>
     </div>
     <a href="/datatable/logout" class="btn btn-danger">Cerrar sesión</a>
@@ -48,8 +48,7 @@
 </div>
 
 <div class="row justify-content-center">
-    <div class="col table-responsive">
-       
+    <div class="col table-responsive" style="max-width: 80%; padding: 10px;">
         <table id="tablaClientes" class="table table-bordered table-hover">
         </table>
     </div>
